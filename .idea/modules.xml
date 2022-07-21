@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/devcamper_theme.iml" filepath="$PROJECT_DIR$/.idea/devcamper_theme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/devcamper.iml" filepath="$PROJECT_DIR$/.idea/devcamper.iml" />
     </modules>
   </component>
 </project>
