@@ -10,6 +10,7 @@ dotenv.config({path: './config/config.env'});
 
 // Route Files
 const bootcamps = require('./routes/bootcamp');
+const courses = require('./routes/courses');
 
 // connect to DB
 connectDB();
@@ -26,6 +27,7 @@ if(process.env.NODE_ENV === 'development') {
 
 // Mount Routers
 app.use('/api/v1/bootcamps', bootcamps);
+app.use('/api/v1/courses', courses);
 
 app.use(errorHandler);
 
